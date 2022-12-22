@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kiber-school"
+version = "0.1.0"
+description = ""
+authors = ["L3dmor <l3dmor@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "kiber_school"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.4"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
